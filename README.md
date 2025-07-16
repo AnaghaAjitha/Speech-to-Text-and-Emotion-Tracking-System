@@ -5,7 +5,6 @@ The user initiates recording through a key press.
 The system captures real-time audio using PyAudio.
 The audio is processed and passed to the Whisper model.
 Whisper transcribes the speech into text.
-The text is sent to models DistilBERT and DistilRoBERTa
-DistilBERT for sentiment analysis (positive/negative)
+The text is sent to models DistilBERT and DistilRoBERTa- DistilBERT for sentiment analysis (positive/negative) and DistilRoBERTa for emotion detection.
 
 
